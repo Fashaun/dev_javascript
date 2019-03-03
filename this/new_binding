@@ -1,0 +1,6 @@
+function foo(a) {
+  this.a = a;
+}
+
+var obj = new foo( 123 );
+console.log( obj.a );      // 123
