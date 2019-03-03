@@ -1,3 +1,4 @@
+// 透過 .call() 包裝，使得 function 不管在哪裡執行， 其中的 this 都可以保持在我們所指定的那個物件上
 function func() {
   console.log( this.a );
 }
